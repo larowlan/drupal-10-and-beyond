@@ -23,6 +23,10 @@
       --pnx-light-blue-opaque: #c8f1ffcc;
       --pnx-link: #0270b9;
       --pnx-link-hover: #161b59;
+      --box-radius: 15px;
+      --box-border-width: 3px;
+      --box-width: 225px;
+      --box-width-narrow: 200px;
     }
     .cross {
       color: red;
@@ -33,9 +37,67 @@
       bottom: 10%;
       display: block;
     }
+    .underline {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+    }
+    .underline::before {
+      width: 100%;
+      z-index: -1;
+      height: 2rem;
+      display: block;
+      background-color: var(--pnx-light-blue);
+      position: absolute;
+      top: 1rem;
+      content: "";
+    }
 
+    .remove {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      bottom: -50px;
+    }
     .check {
       color: green;
+    }
+
+
+    .box-with-points {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .tall .box {
+      justify-content: flex-start;
+      width: var(--box-width-narrow);
+      flex-grow: 0;
+      padding: 2rem 1rem;
+    }
+
+    .points {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .box {
+      border-radius: var(--box-radius);
+      border: var(--box-border-width) solid var(--pnx-dark-blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--pnx-dark-blue);
+      width: var(--box-width);
+      flex-direction: column;
+      padding: 2rem;
+      background-color: var(--pnx-light-blue);
+      margin-right: 3rem;
+    }
+    .box p {
+      font-size: 1.75rem;
+      margin: .25rem 0;
     }
 
     body {

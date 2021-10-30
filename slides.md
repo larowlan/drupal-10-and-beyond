@@ -156,11 +156,86 @@ Note:
 
 ### Is 2 years too soon?
 
----
-
-### Examine previous releases
+<img src="./images/drupal9-10.svg" alt="Drupal 9 to Drupal 10" />
 
 ---
+
+### No
+
+We need to give people time to upgrade
+
+---
+
+### So what's driving this?
+
+<p class="fragment">🥜 In a nutshell - security</p>
+
+---
+
+### Drupal 8
+
+<div class="box-with-points">
+<div class="box">
+<h4>Drupal 8</h4>
+<p>Symfony 3</p>
+<p>PHP 7.0+</p>
+<p>CKEditor 4</p>
+</div>  
+<div class="points">
+<ul>
+<li class="fragment">Symfony 3 EOL - <span class="underline">Nov 2021</span></li>
+<li class="fragment">PHP 7.0 EOL - <strong>Jan 2019</strong></li>
+</ul>
+</div>
+</div>
+
+---
+
+### Drupal 9
+
+<div class="box-with-points">
+<div class="box">
+<h4>Drupal 9</h4>
+<p>Symfony 4</p>
+<p>PHP 7.3+</p>
+<p>CKEditor 4</p>
+</div>
+<div class="points">
+<ul>
+<li class="fragment">Symfony 4 EOL - Nov 2023</li>
+<li class="fragment">PHP 7.3 EOL - Dec 2021</li>
+<li class="fragment">CKEditor 4 EOL - <span class="underline">Nov 2022</span></li>
+</ul>
+</div>
+</div>
+
+---
+
+### Drupal 10
+
+<div class="box-with-points">
+<div class="box">
+<h4>Drupal 10</h4>
+<p>Symfony 5 or 6*</p>
+<p>PHP 8.0 or 8.1*</p>
+<p>CKEditor 5</p>
+</div>
+<div class="points">
+<ul>
+<li class="fragment">Symfony - Nov 2025 vs 2027</li>
+<li class="fragment">PHP - Nov 2023 vs 2024</li>
+</ul>
+</div>
+</div>
+
+<p class="small fragment fade-in">*🤞</p>
+
+---
+
+### Noticing a pattern here?
+
+<p class="fragment">Dependencies are driving our release dates</p>
+<p class="fragment">We're one major release behind Symfony</p>
 
 ---
 
@@ -168,19 +243,130 @@ Note:
 
 ---
 
-### Examine driving factors (php, symfony, ckeditor)
+### Drupal 11?
+
+<p>💬Adopt a 2 year major release cycle and a <span class="underline">6 month LTS-to-LTS</span> overlap period for Drupal 10 and beyond</p>
+https://drupal.org/node/3238652
+
+Note:
+- Let's unpack that a bit
+- We've had 6 monthly minors since 8.0
+- But no certainty for majors
 
 ---
 
-### What's coming in Drupal 10?
+### Now: Minor updates
+
+<div class="box-with-points">
+<div class="box">
+<h4>Drupal 9.1.0</h4>
+<p class="fragment">🐣 Dec 2020</p>
+<p class="fragment">🪦 Nov 2021</p>
+</div>
+<div class="points">
+<p class="fragment">You must update <span class="underline">once a year</span></p>
+</div>
+</div>
+
+---
+
+### What we're proposing*
+
+<div class="box-with-points tall">
+<div class="box">
+<h4>Drupal 10.0</h4>
+<p>🐣 June 2022</p>
+</div>
+<div class="box fragment" data-fragment-index="5">
+<h4>Drupal 10.4</h4>
+<p>🐣 Mar 2024</p>
+<p class="fragment" data-fragment-index="7"><strong>🪦 Sep 2026</strong></p>
+</div>
+<div class="box fragment" data-fragment-index="1">
+<h4>Drupal 11.0</h4>
+<p>🐣 June 2024</p>
+</div>
+<div class="box fragment" data-fragment-index="4">
+<h4>Drupal 11.4</h4>
+<p>🐣 Mar 2026</p>
+<p class="fragment" data-fragment-index="8"><strong>🪦 Sep 2028</strong></p>
+</div>
+<div class="box fragment" data-fragment-index="2">
+<h4>Drupal 12.0</h4>
+<p>🐣 Jun 2026</p>
+</div>
+</div>
+
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="3">Regular 2 year majors</h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="6">LTS release 3 months before next major</h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="9">6 month overlap between LTS releases</h4>
+
+
+<p class="small fragment fade-in">*Assuming https://drupal.org/node/3238652 gets consensus</p>
+
+---
+
+### What we're proposing*
+
+<div class="box-with-points">
+<div class="box">
+<h4>Drupal 10.4.0</h4>
+<p class="fragment">🐣 Mar 2024</p>
+<p class="fragment">🪦 Sep 2028</p>
+</div>
+<div class="points">
+<p class="fragment">You must update once every <span class="underline">four</span> years</p>
+</div>
+</div>
+
+<p class="small fragment fade-in">*Assuming https://drupal.org/node/3238652 gets consensus</p>
+
+---
+
+### Disclaimers
+
+<ul>
+<li class="fragment">Hinges on releasing Drupal 10 on Symfony 6.0</li>
+<li class="fragment">Assumes our other dependencies play nice</li>
+</ul>
+
+---
+
+<!-- .slide: data-transition="fade" -->
+
+<h3>What's coming in Drupal 10</h3>
+
+---
+
+<!-- .slide: data-transition="fade" -->
+
+<h3><del>What's coming in Drupal 10</del></h3>
+
+Note:
+- Stop thinking that way
+
+---
+
+<!-- .slide: data-transition="fade" -->
+
+### What's coming in Drupal 9.3?
+
+<ul>
+<li class="fragment">Bundle classes</li>
+<li class="fragment"></li>
+</ul>
+
+Note:
+- Start thinking this way
+- We build Drupal 10 in Drupal 9
+- We build Drupal 11 in Drupal 10
 
 ---
 
 ### Drupal 10.0 will be boring
 
-9.4 minus deprecations
-We're building Drupal 10 in Drupal 9
-Easier again to upgrade (Charts from gabor)
+* 9.4 minus deprecations
+* Easier again to upgrade
 
 ---
 
