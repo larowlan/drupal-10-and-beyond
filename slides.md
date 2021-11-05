@@ -4,6 +4,7 @@
 Note:
 - welcome
 - make yourself comfortable good program of sessions coming up
+- recognise a lot of the names in the attendee list, and I think that's a problem, but we'll get to that later
 
 ---
 
@@ -11,9 +12,7 @@ Note:
 
 @larowlan
 
-<img src="./images/avatar2.jpg" alt="avatar" class="img--offscreen fragment fade-out" />
-<img src="./images/avatar3.jpg" alt="avatar" class="img--offscreen fragment fade-in-then-out" />
-<img src="./images/avatar4.jpg" alt="avatar" class="img--offscreen fragment" />
+<img src="./images/avatar2.jpg" alt="avatar" class="img--offscreen" />
 
 Note:
 
@@ -44,106 +43,59 @@ Note:
 
 ---
 
-### Drupal 10 will come out next year
+### Drupal 10 will come out <span class="underline">next year</span>
 
 ---
 
-### Three scenarios
+### Release cycle
 
-<ul>
-<li class="fragment fade-in-then-semi-out"><strong>Planned: June 15 2022</strong></li>
-<li class="fragment fade-in-then-semi-out">Fallback: August 17 2022</li>
-<li class="fragment fade-in">Break-glass: December 14 2022</li>
-</ul>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="1">Drupal 10 (and 9.4) will come out <span class="underline">next year</span></h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="2">Drupal 9.3 will be out <span class="underline">next month</span></h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="3">Drupal 8 is <span class="underline">EOL</span></h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="4">Drupal 7 is <span class="underline">EOL next year</span></h4>
 
----
+<div class="box-with-points tall">
+<div class="box fragment" data-fragment-index="4">
+<h4>D7</h4>
+<p>🐣 Jan 2011</p>
+<p><strong>🪦 Nov 2022</strong></p>
+</div>
+<div class="box fragment" data-fragment-index="3">
+<h4>D8</h4>
+<p>🐣 Jan 2015</p>
+<p><strong>🪦 Nov 2021</strong></p>
+</div>
+<div class="box fragment" data-fragment-index="2">
+<h4>9.3</h4>
+<p>🐣 Dec 2021</p>
+</div>
+<div class="box fragment" data-fragment-index="1">
+<h4>9.4</h4>
+<p>🐣 2022</p>
+</div>
+<div class="box fragment" data-fragment-index="1">
+<h4>10.0</h4>
+<p>🐣 Jun 2022</p>
+</div>
+</div>
 
-### Drupal 9
-
-Drupal 9.3 is due December 8
-<p class="small fragment fade-in">*Please help us test the pre-releases</p>
-
----
-
-### Drupal 9.4
-
-<ul>
-<li class="fragment fade-in-then-semi-out">Drupal 9.4 will co-incide with Drupal 10.0*</li>
-<li class="fragment fade-in">Drupal 10.0 with deprecated code</li>
-</ul>
-
-<p class="small fragment fade-in">*All things going to plan</p>
-
----
-
-### Drupal 8
-
-<img src="./images/drupal8.jpg" alt="drupal 8" class="fragment fade-in"/>
-
-Note: 
-
-- Drupal 8 came out in 2015 and is nearly 6 years old
-- iphone 6
-- star wars episode 8 was in cinemas
-
----
-
-<!-- .slide: data-transition="fade" -->
-
-### 🪦 Drupal 8 is End Of Life
-
----
-
-<!-- .slide: data-transition="fade" -->
-
-### 🪦 Drupal 8 will have no more security updates*
-
-<p class="small fragment fade-in">*All things going to plan</p>
 
 Note:
-
-- So if you're still on Drupal 8, your job next week is to move to Drupal 9
+- D10: June 15, Aug 16, Dec 14, may be a 9.5
+- D9.3: please help us test the pre-releases
+- D8 came out in 2015, 6 years ago, iphone 6 was the latest
+- D7 came out in 2011, 10 years ago, iphone 4 was the latest
+- There will be a paid extended support option available from vendors
 
 ---
 
-### 🧚 Updating to Drupal 9 is much easier
+### 🧚 Updating between major versions is much easier
 
 https://pnx.me/3C6v3kH
 
 Note:
 
 - Provided you're on Drupal 8
-
----
-
-### But I'm on Drupal 7!
-
-<img src="./images/drupal7.jpg" alt="drupal 7" class="fragment fade-in"/>
-
-Note:
-
-- Drupal 7 came out in 2011
-- You were rocking an iphone 4
-- thunderbolt displays just came out
-- Game of Thrones season 1 was just out
-- 2 years before Brooklyn 99
-- the last harry potter movie was in cinemas
-- Drupal 7 is the Windows XP of Drupal
-- And I don't mean that its the only thing your grandparents and banks can agree on
-- it was super successful and is everywhere
-
----
-
-### Drupal 7
-
-<ul>
-<li>Is end of life in Nov 2022</li>
-<li class="fragment fade-in-then-semi-out">There will be an Extended support option</li>
-</ul>
-
-Note:
-
-- Extended support will likely require either a paid subscription or self serve
 
 ---
 
@@ -161,82 +113,49 @@ We need to give people time to upgrade
 
 ### So what's driving this?
 
-<p class="fragment">🥜 In a nutshell - security</p>
+<ul>
+<li class="fragment">EOL dates for dependencies</li>
+<li class="fragment">We're one major release behind Symfony</li>
+</ul>
+
+Note:
+- One major SF behind shortens our window
 
 ---
 
-### Drupal 8
+### Security support of dependencies
 
 <div class="box-with-points">
-<div class="box">
+<div class="box fragment" data-fragment-index="1">
 <h4>Drupal 8</h4>
-<p>Symfony 3</p>
+<p><strong>Symfony 3</strong></p>
 <p>PHP 7.0+</p>
 <p>CKEditor 4</p>
 </div>  
-<div class="points">
-<ul>
-<li class="fragment">Symfony 3 EOL - <span class="underline">Nov 2021</span></li>
-<li class="fragment">PHP 7.0 EOL - <strong>Jan 2019</strong></li>
-</ul>
+<div class="box fragment" data-fragment-index="2">
+<h4>Drupal 9</h4>
+<p>Symfony 4</p>
+<p>PHP 7.3+</p>
+<p><strong>CKEditor 4</strong></p>
 </div>
+<div class="box fragment" data-fragment-index="3">
+<h4>Drupal 10</h4>
+<p>SF 5 or 6*</p>
+<p>PHP 8.0 or 8.1*</p>
+<p>CKEditor 5</p>
+</div> 
 </div>
+
+<p class="small remove fragment fade-in-then-out" data-fragment-index="1">Symfony 3 EOL <span class="underline">Nov 2021</span></p>
+<p class="small remove fragment fade-in-then-out" data-fragment-index="2">CKEditor 4 <span class="underline">Nov 2022</span></p>
+<p class="small remove fragment fade-in-then-out" data-fragment-index="3">*All things going to plan</p>
 
 Note:
 - So the EOL for Drupal 8 co-incides with EOL of symfony 3
 - actually, symfony extended security support for Sf 3 after Alex Pott and I joined their security team to help with backporting 
-
----
-
-### Drupal 9
-
-<div class="box-with-points">
-<div class="box">
-<h4>Drupal 9</h4>
-<p>Symfony 4</p>
-<p>PHP 7.3+</p>
-<p>CKEditor 4</p>
-</div>
-<div class="points">
-<ul>
-<li class="fragment">Symfony 4 EOL - Nov 2023</li>
-<li class="fragment">PHP 7.3 EOL - Dec 2021</li>
-<li class="fragment">CKEditor 4 EOL - <span class="underline">Nov 2022</span></li>
-</ul>
-</div>
-</div>
-
-Note:
-- So CKEditor is driving the Drupal 10 release date
+- CKEditor is driving the Drupal 9 release date
 - We want 10 out at least 6 months before EOL for CKEditor 4
-
----
-
-### Drupal 10
-
-<div class="box-with-points">
-<div class="box">
-<h4>Drupal 10</h4>
-<p>Symfony 5 or 6*</p>
-<p>PHP 8.0 or 8.1*</p>
-<p>CKEditor 5</p>
-</div>
-<div class="points">
-<ul>
-<li class="fragment">Symfony - Nov 2025 vs 2027</li>
-<li class="fragment">PHP - Nov 2023 vs 2024</li>
-</ul>
-</div>
-</div>
-
-<p class="small fragment fade-in">*All things going to plan</p>
-
----
-
-### Noticing a pattern here?
-
-<p class="fragment">Dependencies are driving our release dates</p>
-<p class="fragment">We're one major release behind Symfony</p>
+- For D10, difference between sf5 and 6 is an extra 2 years
 
 ---
 
@@ -262,16 +181,24 @@ Note:
 <div class="box">
 <h4>Drupal 9.1.0</h4>
 <p class="fragment">🐣 Dec 2020</p>
-<p class="fragment">🪦 Nov 2021</p>
+<p class="fragment">🪦 Dec 2021</p>
 </div>
 <div class="points">
 <p class="fragment">You must update <span class="underline">once a year</span></p>
 </div>
 </div>
 
+Note:
+- to be running a security supported version
+
 ---
 
 ### What we're proposing*
+
+
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="1">Regular <span class="underline">2 year</span> majors</h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="4">LTS release <span class="underline">3 months</span> before next major</h4>
+<h4 class="small remove fragment fade-in-then-out" data-fragment-index="7"><span class="underline">6 month</span> overlap between LTS releases</h4>
 
 <div class="box-with-points tall">
 <div class="box">
@@ -297,10 +224,6 @@ Note:
 <p>🐣 Jun 2026</p>
 </div>
 </div>
-
-<h4 class="small remove fragment fade-in-then-out" data-fragment-index="1">Regular 2 year majors</h4>
-<h4 class="small remove fragment fade-in-then-out" data-fragment-index="4">LTS release 3 months before next major</h4>
-<h4 class="small remove fragment fade-in-then-out" data-fragment-index="7">6 month overlap between LTS releases</h4>
 
 
 <p class="small fragment fade-in">*Assuming https://drupal.org/node/3238652 gets consensus</p>
@@ -458,6 +381,10 @@ Note:
 
 <img src="./images/updates.png" alt="automatic updates" />
 
+Note:
+- a lot of people in this call will be thinking this isn't for me
+- govcms etc
+
 ---
 
 ### Project browser
@@ -465,7 +392,6 @@ Note:
 <img class="fragment" src="./images/project-browser.png" alt="project browser" />
 
 Note:
-- Why is this important? Global training day
 - Work happening in contrib
 - Join the team
 - Will build on top of automatic updates to work with composer under the hood
@@ -518,7 +444,59 @@ Note:
 
 Note:
 - This commences the navel gazing part of the talk
-- I hope we can use this to have some structured Q and A
+- I hope this prompts some really lively Q and A
+
+---
+
+### If dependencies drive our EOL? 
+
+<ul><li class="fragment">Was getting off the island the right thing to do?</li>
+<li class="fragment">Does the fact D7 is still kicking indicate so?</li>
+</ul>
+
+Note:
+- To an outsider this may seem to be the case
+- But the reality is core devs are stretched thin maintaining code we wrote
+- Let alone adding all this other code we don't even have to think about
+
+---
+
+### How core development works
+
+Note:
+- How people think it works (well planned out backlog, priorities are decided)
+- How it actually works (organisations bring their ideas and progress them to fruition)
+- Acquia is the exception, they fund things that probably don't help their business, but do help the ecosystem
+- e.g. Lullabot identified need with Olivero and drove that
+- but locally ServiceNSW, NSW Dept of Customer Service and PreviousNext have driven a lot of the big changes in 9.3 like revision
+- To use a clique the rising tide lifts all boats
+
+---
+
+> I'm rapidly discovering that what I thought was a large group of people working together to guide Drupal core is a lot smaller than I once thought.
+ - Max Pognowski
+
+Note:
+- The reality is contribution comes from a small pool.
+- Core is so vast
+- There are some subsystems that I can count on one hand the number of people who have a deep knowledge of how it works
+- There are some parts of core where the loss of a single individual would cause progress to grind to a halt 
+
+---
+
+> For an ecosystem that provides gainful employment to so many, so much work falls to so few
+- Me
+
+---
+
+### MAINTAINERS.TXT
+
+has some large holes
+
+Note:
+- there are whole systems in core with no listed maintainer
+- people pitch in here and there
+- but if your business relies on this piece of core, perhaps you could step up and help out?
 
 ---
 
@@ -544,6 +522,15 @@ Note:
 
 ---
 
+### Certified Drupal Partners program
+
+Note:
+- DA trying to address this imbalance
+- Recognise orginisations who contribute back
+- Strong exposure Vs None
+
+---
+
 ### Talent is scarce
 
 Note:
@@ -551,6 +538,7 @@ Note:
 - The pool of faces isn't growing
 - Oxide, PreviousNext, Salsa, NSW Department of customer service
 - Check the #jobs channel
+- developers want to work where contribution is part of an org's DNA
 
 ---
 
@@ -576,6 +564,7 @@ Note:
 - Atwood's law "anything that can be written in javascript will eventually be written in javascript"
 - Decoupled CMS as a service offering are coming up fast behind us
 - Entry to this space is much simpler
+- 10 years ago small agency Cpanel
 
 ---
 
@@ -595,10 +584,12 @@ Note:
 ### What can we as an AU/NZ community do?
 
 Note:
-- What can we do locally to improve onboarding for users
+- What can we do locally to improve attracting new users to the project
+- Where are the entry level conferences?
 - Vlad in Brisbane at the TAFE
 - Murray in Sydney working with TAFE
 - NZ meetup committee were talking about this too
+- Maybe sprint day tomorrow? Max became a regular contributor after the last one, maybe you could too?
 
 ---
 
