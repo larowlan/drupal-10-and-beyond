@@ -469,7 +469,8 @@ Note:
 - Acquia is the exception, they fund things that probably don't help their business, but do help the ecosystem
 - e.g. Lullabot identified need with Olivero and drove that
 - but locally ServiceNSW, NSW Dept of Customer Service and PreviousNext have driven a lot of the big changes in 9.3 like revision
-- To use a clique the rising tide lifts all boats
+- not everyone knows enough about Drupal to contribute patches but there are other ways to contribute and you can always sponsor someone to bring a feature to fruition
+- To use a cliche the rising tide lifts all boats
 
 ---
 
