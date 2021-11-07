@@ -555,6 +555,8 @@ Note:
 - the last global training day I ran, I avoided talking about adding modules to the site because its a minefield
 - this used to be a major selling point 'there's a module for that'
 - but now its too complex to cover in a single day's training
+- small free camps
+- indie hacking roots?
 
 ---
 
