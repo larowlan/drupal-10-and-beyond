@@ -351,6 +351,8 @@ Note:
 
 <img src="./images/d10-state.png" alt="Drupal 10 state" />
 
+<p class="small">http://slides.com/gaborhojtsy/state-of-drupal-10-readiness-sept-2021</p>
+
 Note:
 - Much of the work to move to update D9 code D10 can be automated.
 
@@ -526,8 +528,8 @@ Note:
 ### Certified Drupal Partners program
 
 Note:
-- DA trying to address this imbalance
-- Recognise orginisations who contribute back
+- DA trying to address this imbalance or makers vs takers
+- Recognise organisations who contribute back
 - Strong exposure Vs None
 
 ---
@@ -554,9 +556,7 @@ Note:
 - initiatives like project browser help
 - the last global training day I ran, I avoided talking about adding modules to the site because its a minefield
 - this used to be a major selling point 'there's a module for that'
-- but now its too complex to cover in a single day's training
-- small free camps
-- indie hacking roots?
+- but now it's too complex to cover in a single day's training
 
 ---
 
@@ -566,7 +566,7 @@ Note:
 - The web landscape has changed
 - Atwood's law "anything that can be written in javascript will eventually be written in javascript"
 - Decoupled CMS as a service offering are coming up fast behind us
-- Entry to this space is much simpler
+- Entry to this space is much simpler, simpler hosting, great starter kits
 - 10 years ago small agency Cpanel
 
 ---
@@ -579,7 +579,7 @@ Note:
 - Gitlab features like pages, CI, publishing to NPM
 - Once library is using it
 - JSON:API is a start but there are many places where API is second class citizen to theme/form apis
-- Stuart and Nuxt is doing some amazing work on this front
+- Stuart and Druxt is doing some amazing work on this front
 - I spoke about this topic at length at Decoupled days
 
 ---
@@ -592,10 +592,4 @@ Note:
 - Vlad in Brisbane at the TAFE
 - Murray in Sydney working with TAFE
 - NZ meetup committee were talking about this too
-- Maybe sprint day tomorrow? Max became a regular contributor after the last one, maybe you could too?
-
----
-
-### Credits
-
-- http://slides.com/gaborhojtsy/state-of-drupal-10-readiness-sept-2021
+- I hope to see you at sprint day tomorrow? Max became a regular contributor after the last one, maybe you could too?
