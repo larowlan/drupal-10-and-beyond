@@ -152,7 +152,7 @@ Note:
 
 Note:
 - So the EOL for Drupal 8 co-incides with EOL of symfony 3
-- actually, symfony extended security support for Sf 3 after Alex Pott and I joined their security team to help with backporting 
+- actually, symfony extended security support for Sf 3 just for us
 - CKEditor is driving the Drupal 9 release date
 - We want 10 out at least 6 months before EOL for CKEditor 4
 - For D10, difference between sf5 and 6 is an extra 2 years
@@ -160,18 +160,6 @@ Note:
 ---
 
 # Where are we going?
-
----
-
-### Drupal 11?
-
-<p>💬Adopt a 2 year major release cycle and a <span class="underline">6 month LTS-to-LTS</span> overlap period for Drupal 10 and beyond</p>
-https://drupal.org/node/3238652
-
-Note:
-- Let's unpack that a bit
-- We've had 6 monthly minors since 8.0
-- But no certainty for majors
 
 ---
 
@@ -224,9 +212,6 @@ Note:
 <p>🐣 Jun 2026</p>
 </div>
 </div>
-
-
-<p class="small fragment fade-in">*Assuming https://drupal.org/node/3238652 gets consensus</p>
 
 ---
 
@@ -531,6 +516,7 @@ Note:
 - DA trying to address this imbalance or makers vs takers
 - Recognise organisations who contribute back
 - Strong exposure Vs None
+- developers want to work where contribution is part of an org's DNA
 
 ---
 
@@ -541,7 +527,6 @@ Note:
 - The pool of faces isn't growing
 - Oxide, PreviousNext, Salsa, NSW Department of customer service
 - Check the #jobs channel
-- developers want to work where contribution is part of an org's DNA
 
 ---
 
@@ -565,7 +550,8 @@ Note:
 Note: 
 - The web landscape has changed
 - Atwood's law "anything that can be written in javascript will eventually be written in javascript"
-- Decoupled CMS as a service offering are coming up fast behind us
+- Myriad of JS based CMSs
+- Decoupled CMS as a service offering are coming up fast behind us, Contentful, Prismic, Sanity
 - Entry to this space is much simpler, simpler hosting, great starter kits
 - 10 years ago small agency Cpanel
 
