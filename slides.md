@@ -549,11 +549,12 @@ Note:
 
 Note: 
 - The web landscape has changed
-- Atwood's law "anything that can be written in javascript will eventually be written in javascript"
 - Myriad of JS based CMSs
 - Decoupled CMS as a service offering are coming up fast behind us, Contentful, Prismic, Sanity
+- I spoke about this topic at length at Decoupled days, detailed review of the offerings
 - Entry to this space is much simpler, simpler hosting, great starter kits
-- 10 years ago small agency Cpanel
+- 10 years ago small agency Cpanel its easy to see why
+- So if JS is where new developers are starting how do we build a bridge?
 
 ---
 
@@ -565,8 +566,8 @@ Note:
 - Gitlab features like pages, CI, publishing to NPM
 - Once library is using it
 - JSON:API is a start but there are many places where API is second class citizen to theme/form apis
-- Stuart and Druxt is doing some amazing work on this front
-- I spoke about this topic at length at Decoupled days
+- Stuart and Druxt is doing some amazing work on this front but is coming up against this
+- So I'll leave you with one final question
 
 ---
 
@@ -575,6 +576,7 @@ Note:
 Note:
 - What can we do locally to improve attracting new users to the project
 - Where are the entry level conferences?
+- My first conference...
 - Vlad in Brisbane at the TAFE
 - Murray in Sydney working with TAFE
 - NZ meetup committee were talking about this too
